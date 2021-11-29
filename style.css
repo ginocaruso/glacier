@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "whiteDream";
+    src: url(./fonts/WhiteDream) format("opentype");
+}
+
+@font-face {
+    font-family: "OverTheRainbow";
+    src: url(./fonts/OverTheRainbow.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Mildway";
+    src: url(./fonts/Midway.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "SchoolCOLLEGE";
+    src: url(./fonts/SchoolCOLLEGE.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+
+i {
+    padding: 0.5rem;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(116, 240, 227);
+}
+
+/* .......main.......... */
+/* /----------------NAV--------------------------/ */
+
+nav {
+    color: white;
+    justify-content: space-between;
+}
+
+
+
+li {
+    padding: 0.5em;
+}
+
+.nameCream {
+    border: solid 0.5rem;
+    padding-top: 20%;
+    line-height: 10rem;
+    padding: none;
+    box-sizing: 5em border-box, black;
+}
+
+.Glace {
+    line-height: 1rem;
+    color: brown;
+    font-family: "whiteDream";
+    font-size: 15rem;
+}
+
+.pistache {
+    text-decoration: 1rem;
+    letter-spacing: -0.5rem;
+    color: burlywood;
+    font-family: "OverTheRainbow";
+    font-size: 8rem;
+}
+
+.nutella {
+    letter-spacing: 0.5rem;
+    color: rgb(240, 219, 35);
+    font-family: "Mildway";
+    font-size: 9rem;
+}
+
+.oreo {
+    color: rgb(212, 42, 136);
+    font-family: "SchoolCOLLEGE";
+    font-size: 5rem;
+}
+
+
+
+/* /----------------typo glace oreo nutella pistache--------------------------/ */
+.typo {
+    width: 80%;
+    justify-content: center;
+    margin-left: 5rem;
+}
+
+section img {
+    padding: 2rem;
+}
+
+section h2 {
+    display: flex;
+    text-align: left;
+}
+
+
+
+/* /----------------horaires ouverture--------------------------/ */
+.horaires {
+    width: 70%;
+    margin: auto;
+    flex-wrap: nowrap;
+    padding: 3rem;
+    color: white;
+
+}
+
+.sectionouvert {
+
+    width: 400px;
+
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* /----------------etapes 3 cartes differentes etapes--------------------------/ */
+.etapes {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+
+
+}
+
+.article3 p {
+    padding: 0.5rem;
+}
+
+/* ..........adresseMagasin............ */
+.adresseMagasin {
+    flex-direction: row;
+    padding-right: 3rem;
+}
+
+/*.........Galerie.................. */
+
+.Galerie{
+    width: 80%;
+}
+
+.titreGalerie {
+    margin-left: 47%;
+}
+
+.Galerie > div {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr ) ;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+   
+   
+}
+
+/* /----------------SLIDE-------------------------/ */
+
+.slide {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    padding: 3rem;
+}
+
+.slide i {
+    transform: rotate(180deg);
+}
+
+.slide p {
+    padding: 0.5rem;
+}
+
+
+/* /----------------FOOTER--------------------------/ */
+
+footer {
+    background-image: url(./images/footer-image.jpg);
+    color: white;
+    padding: 3rem;
+
+
+}
+
+footer p {
+    padding: 0.3rem;
+    text-align: center;
+}
+
+footer li {
+    position: relative;
+    left: 45%;
+
+}
+
+footer img {
+    margin: auto;
+    padding: 2rem;
+    width: 100px;
+
+}

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+
+i{
+    padding: 0.5rem;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+body{
+    background-color: turquoise;
+}
+
+/* ..........nav.......... */
+nav{
+    color: white;
+    justify-content: space-between;
+    
+  
+
+}
+
+li{
+    padding: 0.5em;
+}
+/* ........img stand.......... */
+section{
+    margin-left: 18%;
+    margin-top: 5%;
+}
+/* ..........article1...... */
+.article1{
+    width:400px;
+    text-align: center;
+    margin: auto;
+    padding: 5rem;
+}
+
+.article1 p{
+    padding: 0.5rem;
+}
+/* ..........article2......... */
+.article2{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 10%;
+    text-align: center;
+}
+.centered{
+    padding: 2rem;
+}
+/* .........footer........ */
+footer{
+    background-image: url(./images/footer-image.jpg);
+    color: white;
+    padding: 3rem
+   
+  
+}
+
+footer p {
+    padding: 0.3rem;
+    text-align: center;
+}
+
+footer  li{
+    position: relative;
+    left: 45%;
+ 
+}
+
+footer img{
+    margin: auto;
+    padding: 2rem;
+    width: 100px;
+    
+}

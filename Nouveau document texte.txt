@@ -1,0 +1,5 @@
+Codes couleurs :
+bleu clair #67c1c1
+bleu foncé #197c79
+
+ La nav n'est pas fixe, mais vous devez placer une ancre vers le haut ( icone flèche vers le haut avec un cercle ). Sa position est sur le footer à droite  à 65px du bottom !
